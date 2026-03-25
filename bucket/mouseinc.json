@@ -1,0 +1,9 @@
+{
+  "version": "2.13.4",
+  "description": "MouseInc是一款小巧好用的全局鼠标手势软件。",
+  "homepage": "https://docs.shuax.com/MouseInc",
+  "license": "MIT",
+  "url": "https://cdn.jsdelivr.net/gh/binjoo/scoop-bucket@master/files/MouseInc_2.13.4.zip",
+  "hash": "sha256:CDB0489A02049561C593E544174C2EB8151F237D7A3E6FA41061C6BEB4D2BDDF",
+  "bin": "MouseInc.exe"
+}
