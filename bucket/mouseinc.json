@@ -4,6 +4,6 @@
   "homepage": "https://docs.shuax.com/MouseInc",
   "license": "MIT",
   "url": "https://cdn.jsdelivr.net/gh/binjoo/scoop-bucket@master/files/MouseInc_2.13.4.zip",
-  "hash": "sha256:CDB0489A02049561C593E544174C2EB8151F237D7A3E6FA41061C6BEB4D2BDDF",
+  "hash": "sha256:cdb0489a02049561c593e544174c2eb8151f237d7a3e6fa41061c6beb4d2bddf",
   "bin": "MouseInc.exe"
 }
