@@ -18,6 +18,6 @@
     "regex": "v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v$version/IOGraph-windows-$version.zip"
+    "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v$version/IOGraph-windows-v$version.zip"
   }
 }
