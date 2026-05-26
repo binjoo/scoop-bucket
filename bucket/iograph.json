@@ -1,23 +1,23 @@
 {
-  "version": "2.0.0",
-  "description": "application that turns mouse movements into modern art.",
-  "homepage": "https://www.iographica.com",
-  "license": "MIT",
-  "bin": "IOGraph.exe",
-  "shortcuts": [
-    [
-      "IOGraph.exe",
-      "IOGraph"
-    ]
-  ],
-  "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v2.0.0/IOGraph-windows-v2.0.0.zip",
-  "hash": "10d23f6016bc80acaf85bfda5705389170bd15a4deb65f65db6a8134bd4934f5",
-  "checkver": {
-    "url": "https://api.github.com/repos/anatolyzenkov/IOGraph/releases/latest",
-    "jsonpath": "$.tag_name",
-    "regex": "v([\\d.]+)"
-  },
-  "autoupdate": {
-    "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v$version/IOGraph-windows-v$version.zip"
-  }
+    "version": "2.0.2",
+    "description": "application that turns mouse movements into modern art.",
+    "homepage": "https://www.iographica.com",
+    "license": "MIT",
+    "bin": "IOGraph.exe",
+    "shortcuts": [
+        [
+            "IOGraph.exe",
+            "IOGraph"
+        ]
+    ],
+    "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v2.0.2/IOGraph-windows-v2.0.2.zip",
+    "hash": "01e96c39bdf7ac53b72db8f1e25b7a567e99ad8d60d2f32d2a44df206b73bc5b",
+    "checkver": {
+        "url": "https://api.github.com/repos/anatolyzenkov/IOGraph/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v$version/IOGraph-windows-v$version.zip"
+    }
 }
