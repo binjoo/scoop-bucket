@@ -1,0 +1,22 @@
+{
+  "version": "1.43",
+  "description": "A lightweight menu bar app that tracks your keyboard strokes, mouse clicks, movement distance, and scroll activity.",
+  "homepage": "https://github.com/debugtheworldbot/keyStats",
+  "license": "MIT",
+  "bin": "KeyStats.exe",
+  "shortcuts": [
+    [
+      "KeyStats.exe",
+      "KeyStats"
+    ]
+  ],
+  "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v1.43/KeyStats-Windows-1.43.zip",
+  "checkver": {
+    "url": "https://api.github.com/repos/debugtheworldbot/keyStats/releases/latest",
+    "jsonpath": "$.tag_name",
+    "regex": "v([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v$verison/KeyStats-Windows-$verison.zip"
+  }
+}
