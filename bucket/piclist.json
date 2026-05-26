@@ -1,0 +1,38 @@
+{
+  "version": "3.3.2",
+  "description": "An image upload and manage tool, base on PicGo.",
+  "homepage": "https://piclist.cn",
+  "license": "MIT",
+  "bin": "PicList.exe",
+  "shortcuts": [
+    [
+      "PicList.exe",
+      "PicList"
+    ]
+  ],
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Kuingsmile/PicList/releases/download/v3.3.2/PicList-Setup-3.3.2-x64-portable.7z",
+      "hash": "8c5471c56ca7692070e90e29c9eca9b8658877875b7aeda6e3f67f5457d1e286"
+    },
+    "arm64": {
+      "url": "https://github.com/Kuingsmile/PicList/releases/download/v3.3.2/PicList-Setup-3.3.2-arm64-portable.7z",
+      "hash": "b0112c055623862d04217d91bef451c1372c387bcbce29345b64a92f9c5d36ed"
+    }
+  },
+  "checkver": {
+    "url": "https://api.github.com/repos/Kuingsmile/PicList/releases/latest",
+    "jsonpath": "$.tag_name",
+    "regex": "v([\\d.]+)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/Kuingsmile/PicList/releases/download/v$version/PicList-Setup-$version-x64-portable.7z"
+      },
+      "arm64": {
+        "url": "https://github.com/Kuingsmile/PicList/releases/download/v$version/PicList-Setup-$version-arm64-portable.7z"
+      }
+    }
+  }
+}
