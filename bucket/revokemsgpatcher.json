@@ -18,7 +18,7 @@
     "jsonpath": "$.tag_name"
   },
   "autoupdate": {
-    "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/v$version/IOGraph-windows-v$version.zip",
+    "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/v$version/RevokeMsgPatcher.v$version.zip",
     "extract_dir": "RevokeMsgPatcher.v$version"
   }
 }
