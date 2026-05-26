@@ -8,6 +8,7 @@ scoop bucket add binjoo https://github.com/binjoo/scoop-bucket
 
 |软件名称|Scoop 名称|自动更新|
 |-|-|-|
+|IOGraph|iograph|✔|
 |KeyStats|keystats|✔|
 |PicList|piclist|✔|
 |Tiny RDM|tinyrdm|✔|
