@@ -11,7 +11,7 @@
         ]
     ],
     "url": "https://github.com/debugtheworldbot/keyStats/releases/download/v1.44/KeyStats-Windows-1.44.zip",
-    "hash": "",
+    "hash": "8a6cd25ed7b1d26072114275248e39d26d84baea34836764793be414ee8fa2ee",
     "checkver": {
         "url": "https://api.github.com/repos/debugtheworldbot/keyStats/releases/latest",
         "jsonpath": "$.tag_name",
