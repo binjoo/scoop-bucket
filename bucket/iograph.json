@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "description": "application that turns mouse movements into modern art.",
+  "homepage": "https://www.iographica.com",
+  "license": "MIT",
+  "bin": "IOGraph.exe",
+  "shortcuts": [
+    [
+      "IOGraph.exe",
+      "IOGraph"
+    ]
+  ],
+  "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v2.0.0/IOGraph-windows-v2.0.0.zip",
+  "hash": "10d23f6016bc80acaf85bfda5705389170bd15a4deb65f65db6a8134bd4934f5",
+  "checkver": {
+    "url": "https://api.github.com/repos/anatolyzenkov/IOGraph/releases/latest",
+    "jsonpath": "$.tag_name",
+    "regex": "v([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://github.com/anatolyzenkov/IOGraph/releases/download/v$version/IOGraph-windows-$version.zip"
+  }
+}
