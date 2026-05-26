@@ -11,6 +11,7 @@
     ]
   ],
   "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/2.0/RevokeMsgPatcher.v2.0.zip",
+  "extract_dir": "RevokeMsgPatcher.v2.0",
   "hash": "6792d2d35d1f2a9dbe58b8b1e98f05ba5419bf7775d1520410069715ed891038",
   "checkver": {
     "url": "https://api.github.com/repos/huiyadanli/RevokeMsgPatcher/releases/latest",
@@ -18,6 +19,7 @@
     "regex": "v([\\d.]+)"
   },
   "autoupdate": {
-    "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/v$version/IOGraph-windows-v$version.zip"
+    "url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases/download/v$version/IOGraph-windows-v$version.zip",
+    "extract_dir": "RevokeMsgPatcher.v$version"
   }
 }
