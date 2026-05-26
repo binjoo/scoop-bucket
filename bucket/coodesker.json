@@ -1,58 +1,58 @@
 {
-  "version": "2.2.1.7",
-  "description": "自动分类整理桌面上的快捷方式、目录、图片等文件",
-  "homepage": "https://www.coodesker.com/",
-  "license": "EULA",
-  "architecture": {
-    "64bit": {
-      "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x64_2.2.1.7.exe#/dl.7z",
-      "hash": "ed2900fe696e5b443ad9d33b8bd7b222dab771432807cd6291ab2133640cf613",
-      "bin": "coodesker-x64.exe",
-      "shortcuts": [
-        [
-          "coodesker-x64.exe",
-          "Coodesker"
-        ]
-      ]
-    },
-    "32bit": {
-      "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x86_2.2.1.7.exe#/dl.7z",
-      "hash": "a134487e4d0eaa76cbf475e0de7d52b3d7c49322ada4ca1476d3adc22a4a08c7",
-      "bin": "coodesker.exe",
-      "shortcuts": [
-        [
-          "coodesker.exe",
-          "Coodesker"
-        ]
-      ]
-    },
-    "arm64": {
-      "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-arm64_2.2.1.7.exe#/dl.7z",
-      "hash": "16c11cc1c6bd4860b997e7a93b79c858c46a17499b278a3ed9934cbdcbebfc64",
-      "bin": "coodesker-x64.exe",
-      "shortcuts": [
-        [
-          "coodesker-x64.exe",
-          "Coodesker"
-        ]
-      ]
-    }
-  },
-  "checkver": {
-    "url": "https://www.coodesker.com/coodesker-desktop/release2.json",
-    "jsonpath": "$.ver"
-  },
-  "autoupdate": {
+    "version": "2.2.1.9",
+    "description": "自动分类整理桌面上的快捷方式、目录、图片等文件",
+    "homepage": "https://www.coodesker.com/",
+    "license": "EULA",
     "architecture": {
-      "64bit": {
-        "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x64_$version.exe#/dl.7z"
-      },
-      "32bit": {
-        "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x86_$version.exe#/dl.7z"
-      },
-      "arm64": {
-        "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-arm64_$version.exe#/dl.7z"
-      }
+        "64bit": {
+            "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x64_2.2.1.9.exe#/dl.7z",
+            "hash": "2f3671fdd86ee5fbc0664710fa305e1602607f455e22930fa8d7d96aad38aad7",
+            "bin": "coodesker-x64.exe",
+            "shortcuts": [
+                [
+                    "coodesker-x64.exe",
+                    "Coodesker"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x86_2.2.1.9.exe#/dl.7z",
+            "hash": "0d6b2a6ca21cf43f8d6f6e84cf2dbfa14d03c4288a9a326a31e8540fe75305e0",
+            "bin": "coodesker.exe",
+            "shortcuts": [
+                [
+                    "coodesker.exe",
+                    "Coodesker"
+                ]
+            ]
+        },
+        "arm64": {
+            "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-arm64_2.2.1.9.exe#/dl.7z",
+            "hash": "f03e13e8fa6c6df3bfe7ad6ab25b7cdab9a0a6d1f7e6a9ca24eb0d10cc1339e8",
+            "bin": "coodesker-x64.exe",
+            "shortcuts": [
+                [
+                    "coodesker-x64.exe",
+                    "Coodesker"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://www.coodesker.com/coodesker-desktop/release2.json",
+        "jsonpath": "$.ver"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x64_$version.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x86_$version.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-arm64_$version.exe#/dl.7z"
+            }
+        }
     }
-  }
 }
