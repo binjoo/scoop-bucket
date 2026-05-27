@@ -1,5 +1,5 @@
 {
-    "version": "2.00.5",
+    "version": "2.00.6",
     "description": "Bili23-Downloader is a cross-platform Bilibili video downloader.",
     "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
     "license": "MIT",
@@ -10,8 +10,8 @@
             "Bili23 Downloader"
         ]
     ],
-    "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.5/Bili23-Downloader_2.00.5_windows_x64_portable.zip",
-    "hash": "f74b1f55e3debfaf2fab2eb58d3e5907195d1232088e45254ecb410ac775f67a",
+    "url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.00.6/Bili23-Downloader_2.00.6_windows_x64_portable.zip",
+    "hash": "6dc69f3c6f3b49428c2a5c6e9c7dc4697ad9e5a1f2bbda23da393ce7f0587353",
     "checkver": {
         "url": "https://api.github.com/repos/ScottSloan/Bili23-Downloader/releases/latest",
         "jsonpath": "$.tag_name",
