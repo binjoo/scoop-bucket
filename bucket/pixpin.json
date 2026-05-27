@@ -1,23 +1,34 @@
 {
-    "version": "3.1.4.0",
-    "description": "一款快速灵活的截图、录屏、OCR 工具。",
-    "homepage": "https://pixpin.cn",
-    "license": "EULA",
-    "bin": "PixPin.exe",
-    "shortcuts": [
-        [
-            "PixPin.exe",
-            "PixPin"
-        ]
-    ],
-    "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_3.1.4.0.zip",
-    "hash": "1974429a678d213115f7aa2b95b9478caeb4370edf5d73d12db01735f6616065",
-    "extract_dir": "Pixpin",
-    "checkver": {
-        "url": "https://pixpin.cn/download",
-        "regex": "PixPin_cn_zh-cn_([\\d.]+)\\.zip"
-    },
-    "autoupdate": {
-        "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_$version.zip"
-    }
+  "version": "3.1.4.0",
+  "description": "一款快速灵活的截图、录屏、OCR 工具。",
+  "homepage": "https://pixpin.cn",
+  "license": "EULA",
+  "bin": "PixPin.exe",
+  "shortcuts": [
+    [
+      "PixPin.exe",
+      "PixPin"
+    ]
+  ],
+  "persist": [
+    "Config",
+    "Crashpad",
+    "Data",
+    "History",
+    "OcrModel",
+    "Temp",
+    "LocalStorage.data",
+    "LoginData.bin",
+    "pixpin.log"
+  ],
+  "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_3.1.4.0.zip",
+  "hash": "1974429a678d213115f7aa2b95b9478caeb4370edf5d73d12db01735f6616065",
+  "extract_dir": "Pixpin",
+  "checkver": {
+    "url": "https://pixpin.cn/download",
+    "regex": "PixPin_cn_zh-cn_([\\d.]+)\\.zip"
+  },
+  "autoupdate": {
+    "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_$version.zip"
+  }
 }
