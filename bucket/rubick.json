@@ -1,5 +1,5 @@
 {
-    "version": "4.2.9",
+    "version": "4.3.8",
     "description": "Electron based open source toolbox, free integration of rich plug-ins.",
     "homepage": "https://github.com/rubickCenter/rubick",
     "license": "MIT",
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rubickCenter/rubick/releases/download/v4.2.9/rubick-Setup-4.2.9-x64.exe#/dl.7z",
-            "hash": "21ec53830a20c1bb700f18578e0e5904551c2c45fa9a36689a19c2f7ef811da6",
+            "url": "https://github.com/rubickCenter/rubick/releases/download/v4.3.8/rubick-Setup-4.3.8-x64.exe#/dl.7z",
+            "hash": "9c7e616fe61d897af8f30e940ed3f030d264fc66c4cca81f35bf3f9949f3d851",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
@@ -22,8 +22,8 @@
             }
         },
         "32bit": {
-            "url": "https://github.com/rubickCenter/rubick/releases/download/v4.2.9/rubick-Setup-4.2.9-ia32.exe#/dl.7z",
-            "hash": "f991830f227ec2123740d6580dcf3cc78a3e8bf77cd18965eff38eedc3163c6c",
+            "url": "https://github.com/rubickCenter/rubick/releases/download/v4.3.8/rubick-Setup-4.3.8-ia32.exe#/dl.7z",
+            "hash": "8485aa7aaf9590636acbaebd2226ae3b134768e0cb1374767347b1c0ccaebb89",
             "installer": {
                 "script": [
                     "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
