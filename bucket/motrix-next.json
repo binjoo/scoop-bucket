@@ -1,0 +1,41 @@
+{
+    "version": "3.9.0",
+    "description": "A full-featured download manager — rebuilt from the ground up.",
+    "homepage": "https://github.com/AnInsomniacy/motrix-next",
+    "license": "MIT",
+    "bin": "motrix-next.exe",
+    "shortcuts": [
+        [
+            "motrix-next.exe",
+            "Motrix Next"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AnInsomniacy/motrix-next/releases/download/v3.9.0/MotrixNext_3.9.0_x64-setup.exe#/dl.7z",
+            "hash": "7e36f0429c605ea7843b527ca85fd3b71a7008212602a4923b25573b3339a35a"
+        },
+        "arm64": {
+            "url": "https://github.com/AnInsomniacy/motrix-next/releases/download/v3.9.0/MotrixNext_3.9.0_arm64-setup.exe#/dl.7z",
+            "hash": "5127f5435aa3bf56435f4678dcf5df895090899e244cf26cbfde27b318abd579"
+        }
+    },
+    "installer": {
+        "script": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse -Force -ErrorAction SilentlyContinue"
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/AnInsomniacy/motrix-next/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AnInsomniacy/motrix-next/releases/download/v$version/MotrixNext_$version_x64-setup.exe#/dl.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/AnInsomniacy/motrix-next/releases/download/v$version/MotrixNext_$version_arm64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
