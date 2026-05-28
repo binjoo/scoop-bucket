@@ -1,0 +1,28 @@
+{
+  "version": "1.2.1",
+  "description": "Create polished screen recordings without editing.",
+  "homepage": "https://recordly.dev",
+  "bin": "Recordly.exe",
+  "shortcuts": [
+    [
+      "Recordly.exe",
+      "Recordly"
+    ]
+  ],
+  "url": "https://github.com/webadderallorg/Recordly/releases/download/v1.2.1/Recordly-windows-x64.exe#/dl.7z",
+  "hash": "2473f947d96f68bb871383d00f8be3750397720b910a6f85d48cfa3b452dbf74",
+  "installer": {
+    "script": [
+      "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+      "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\" -Recurse -Force -ErrorAction SilentlyContinue"
+    ]
+  },
+  "checkver": {
+    "url": "https://api.github.com/repos/webadderallorg/Recordly/releases/latest",
+    "jsonpath": "$.tag_name",
+    "regex": "v([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://github.com/webadderallorg/Recordly/releases/download/v$version/Recordly-windows-x64.exe#/dl.7z"
+  }
+}
