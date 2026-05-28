@@ -24,6 +24,6 @@
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/ILoveBingLu/CipherTalk/releases/download/v$version/CipherTalk-$version-Setup.exep#/dl.7z"
+        "url": "https://github.com/ILoveBingLu/CipherTalk/releases/download/v$version/CipherTalk-$version-Setup.exe#/dl.7z"
     }
 }
