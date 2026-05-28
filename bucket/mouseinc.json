@@ -1,0 +1,15 @@
+{
+    "version": "2.13.4",
+    "description": "MouseInc is a lightweight and user-friendly utility for system-wide mouse gestures.",
+    "homepage": "https://docs.shuax.com/MouseInc",
+    "license": "MIT",
+    "shortcuts": [
+        [
+            "MouseInc.exe",
+            "MouseInc"
+        ]
+    ],
+    "persist": "MouseInc.json",
+    "url": "https://github.com/binjoo/scoop-bucket/releases/download/MouseInc_2.13.4.B/MouseInc_v2.13.4.B.7z",
+    "hash": "7656c22f60058af4796e26890091019e57f08db5da0b1afac0cdac595a31ce79"
+}
