@@ -1,7 +1,7 @@
 {
     "version": "1.2.7",
     "description": "A modern, colorful, super lightweight Redis GUI client",
-    "homepage": "https://redis.tinycraft.cc",
+    "homepage": "https://www.tinyrdm.com",
     "license": "GPL-3.0",
     "bin": "Tiny RDM.exe",
     "shortcuts": [
