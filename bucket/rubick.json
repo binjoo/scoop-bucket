@@ -1,0 +1,50 @@
+{
+    "version": "4.2.9",
+    "description": "Electron based open source toolbox, free integration of rich plug-ins.",
+    "homepage": "https://github.com/rubickCenter/rubick",
+    "license": "MIT",
+    "bin": "rubick.exe",
+    "shortcuts": [
+        [
+            "rubick.exe",
+            "Rubick"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rubickCenter/rubick/releases/download/v4.2.9/rubick-Setup-4.2.9-x64.exe#/dl.7z",
+            "hash": "21ec53830a20c1bb700f18578e0e5904551c2c45fa9a36689a19c2f7ef811da6",
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Recurse -Force -ErrorAction SilentlyContinue"
+                ]
+            }
+        },
+        "32bit": {
+            "url": "https://github.com/rubickCenter/rubick/releases/download/v4.2.9/rubick-Setup-4.2.9-ia32.exe#/dl.7z",
+            "hash": "f991830f227ec2123740d6580dcf3cc78a3e8bf77cd18965eff38eedc3163c6c",
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Recurse -Force -ErrorAction SilentlyContinue"
+                ]
+            }
+        }
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/rubickCenter/rubick/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/rubickCenter/rubick/releases/download/v$version/rubick-Setup-$version-ia32.exe#/dl.7z"
+            }
+        }
+    }
+}
