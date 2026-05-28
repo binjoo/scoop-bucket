@@ -1,0 +1,21 @@
+{
+    "version": "1.16.64",
+    "description": "一款完全免费的12306抢票软件。",
+    "homepage": "https://www.bypass.cn/",
+    "shortcuts": [
+        [
+            "Bypass.exe",
+            "12306Bypass"
+        ]
+    ],
+    "url": "https://yd.bypass.cn/Bypass_1.16.64.zip",
+    "hash": "2737b0aa68cfaa7126a7c9970271bfb92549504d279e42737a3092d39535c348",
+    "extract_dir": "Bypass",
+    "checkver": {
+        "url": "https://www.bypass.cn",
+        "regex": "Version&#xFF1A;([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://yd.bypass.cn/Bypass_$version.zip"
+    }
+}
