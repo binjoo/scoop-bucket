@@ -14,7 +14,7 @@
   "url": "https://github.com/choyy/VirtualDesktopSwitcher/releases/download/1.2.1/VirtualDesktopSwitcher.exe",
   "hash": "3aaf16e0da1fa60fa53a1bafbfd42456fd7f5625883ab2484dc37265bc89ee59",
   "checkver": {
-    "url": "https://api.github.com/repos/itsfatduck/optimizerDuck/releases/latest",
+    "url": "https://api.github.com/repos/choyy/VirtualDesktopSwitcher/releases/latest",
     "jsonpath": "$.tag_name",
     "regex": "v([\\d.]+)"
   },
