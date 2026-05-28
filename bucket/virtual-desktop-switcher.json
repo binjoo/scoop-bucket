@@ -1,0 +1,24 @@
+{
+  "version": "1.2.1",
+  "description": "Virtual Desktop Switcher and Indicator for Windows 10/11",
+  "homepage": "https://github.com/choyy/VirtualDesktopSwitcher",
+  "license": "MIT",
+  "extract_to": "VirtualDesktopSwitcher.exe",
+  "bin": "VirtualDesktopSwitcher.exe",
+  "shortcuts": [
+    [
+      "VirtualDesktopSwitcher.exe",
+      "VirtualDesktopSwitcher"
+    ]
+  ],
+  "url": "https://github.com/choyy/VirtualDesktopSwitcher/releases/download/1.2.1/VirtualDesktopSwitcher.exe",
+  "hash": "3aaf16e0da1fa60fa53a1bafbfd42456fd7f5625883ab2484dc37265bc89ee59",
+  "checkver": {
+    "url": "https://api.github.com/repos/itsfatduck/optimizerDuck/releases/latest",
+    "jsonpath": "$.tag_name",
+    "regex": "v([\\d.]+)"
+  },
+  "autoupdate": {
+    "url": "https://github.com/choyy/VirtualDesktopSwitcher/releases/download/$version/VirtualDesktopSwitcher.exe"
+  }
+}
