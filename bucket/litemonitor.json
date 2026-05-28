@@ -3,7 +3,6 @@
     "description": "A lightweight, customizable hardware monitor for the Windows desktop & taskbar.",
     "homepage": "https://github.com/Diorser/LiteMonitor",
     "license": "MIT",
-    "bin": "LiteMonitor.exe",
     "shortcuts": [
         [
             "LiteMonitor.exe",

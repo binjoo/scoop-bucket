@@ -4,7 +4,6 @@
     "homepage": "https://github.com/choyy/VirtualDesktopSwitcher",
     "license": "MIT",
     "extract_to": "VirtualDesktopSwitcher.exe",
-    "bin": "VirtualDesktopSwitcher.exe",
     "shortcuts": [
         [
             "VirtualDesktopSwitcher.exe",

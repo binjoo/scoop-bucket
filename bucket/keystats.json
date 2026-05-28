@@ -3,7 +3,6 @@
     "description": "A lightweight menu bar app that tracks your keyboard strokes, mouse clicks, movement distance, and scroll activity.",
     "homepage": "https://github.com/debugtheworldbot/keyStats",
     "license": "MIT",
-    "bin": "KeyStats.exe",
     "shortcuts": [
         [
             "KeyStats.exe",

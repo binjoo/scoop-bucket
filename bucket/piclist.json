@@ -3,7 +3,6 @@
     "description": "An image upload and manage tool, base on PicGo.",
     "homepage": "https://piclist.cn",
     "license": "MIT",
-    "bin": "PicList.exe",
     "shortcuts": [
         [
             "PicList.exe",

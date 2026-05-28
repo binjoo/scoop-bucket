@@ -3,7 +3,6 @@
     "description": "Electron based open source toolbox, free integration of rich plug-ins.",
     "homepage": "https://github.com/rubickCenter/rubick",
     "license": "MIT",
-    "bin": "rubick.exe",
     "shortcuts": [
         [
             "rubick.exe",

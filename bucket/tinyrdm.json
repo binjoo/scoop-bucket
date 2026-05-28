@@ -3,7 +3,6 @@
     "description": "A modern, colorful, super lightweight Redis GUI client",
     "homepage": "https://www.tinyrdm.com",
     "license": "GPL-3.0",
-    "bin": "Tiny RDM.exe",
     "shortcuts": [
         [
             "Tiny RDM.exe",

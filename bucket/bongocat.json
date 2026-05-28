@@ -3,7 +3,6 @@
     "description": "跨平台互动桌宠 BongoCat，为桌面增添乐趣！ ",
     "homepage": "https://github.com/ayangweb/BongoCat",
     "license": "MIT",
-    "bin": "bongo-cat.exe",
     "shortcuts": [
         [
             "bongo-cat.exe",

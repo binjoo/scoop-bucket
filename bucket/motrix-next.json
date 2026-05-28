@@ -3,7 +3,6 @@
     "description": "A full-featured download manager — rebuilt from the ground up.",
     "homepage": "https://github.com/AnInsomniacy/motrix-next",
     "license": "MIT",
-    "bin": "motrix-next.exe",
     "shortcuts": [
         [
             "motrix-next.exe",

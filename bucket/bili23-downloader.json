@@ -3,7 +3,6 @@
     "description": "Bili23-Downloader is a cross-platform Bilibili video downloader.",
     "homepage": "https://github.com/ScottSloan/Bili23-Downloader",
     "license": "MIT",
-    "bin": "Bili23.exe",
     "shortcuts": [
         [
             "Bili23.exe",

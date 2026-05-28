@@ -4,7 +4,6 @@
     "homepage": "https://github.com/itsfatduck/optimizerDuck",
     "license": "MIT",
     "extract_to": "optimizerDuck.exe",
-    "bin": "optimizerDuck.exe",
     "shortcuts": [
         [
             "optimizerDuck.exe",

@@ -3,7 +3,6 @@
     "description": "一款快速灵活的截图、录屏、OCR 工具。",
     "homepage": "https://pixpin.cn",
     "license": "EULA",
-    "bin": "PixPin.exe",
     "shortcuts": [
         [
             "PixPin.exe",

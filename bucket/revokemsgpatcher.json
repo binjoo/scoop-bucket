@@ -3,7 +3,6 @@
     "description": "A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁",
     "homepage": "https://github.com/huiyadanli/RevokeMsgPatcher",
     "license": "GPL-3.0",
-    "bin": "RevokeMsgPatcher.exe",
     "shortcuts": [
         [
             "RevokeMsgPatcher.exe",
