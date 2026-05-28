@@ -11,6 +11,7 @@
     ],
     "url": "https://github.com/builtbybel/FluentCleaner/releases/download/26.05.27/FluentCleaner-win-x64.zip",
     "hash": "139a43d7fe4a087bda587a554339c3d42b5ea5a34766a7414484f769d26ce0d2",
+    "extract_dir": "FluentCleaner-win-x64",
     "checkver": {
         "url": "https://api.github.com/repos/builtbybel/FluentCleaner/releases/latest",
         "jsonpath": "$.tag_name"
