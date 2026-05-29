@@ -6,24 +6,26 @@ scoop bucket add binjoo https://github.com/binjoo/scoop-bucket
 
 ## 软件清单
 
-|软件名称|Scoop 名称|自动更新|
-|-|-|:-:|
-|[12306Bypass](https://www.bypass.cn)|12306bypass|✔️️|
-|[Bili23 Downloader](https://github.com/ScottSloan/Bili23-Downloader)|bili23-downloader|✔️️|
-|[Bongo Cat](https://github.com/ayangweb/BongoCat)|bongocat|✔️|
-|[CipherTalk](https://github.com/ILoveBingLu/CipherTalk)|ciphertalk|✔️|
-|[Coodesker](https://www.coodesker.com/)|coodesker|✔️|
-|[FluentCleaner](https://github.com/builtbybel/FluentCleaner)|fluentcleaner|✔️|
-|[IOGraph](https://www.iographica.com)|iograph|✔️|
-|[KeyStats](https://github.com/debugtheworldbot/keyStats)|keystats|✔️|
-|[LiteMonitor](https://github.com/Diorser/LiteMonitor)|litemonitor|✔️|
-|[MouseInc](https://docs.shuax.com/MouseInc)|mouseinc|❌|
-|[OptimizerDuck](https://github.com/itsfatduck/optimizerDuck)|optimizerduck|✔️|
-|[PicList](https://piclist.cn)|piclist|✔️|
-|[Pixpin](https://pixpin.cn/)|pixpin|✔️|
-|[Pot](https://pot-app.com/)|pot|✔️|
-|[Recordly](https://github.com/webadderallorg/Recordly)|recordly|✔️|
-|[RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)|revokemsgpatcher|✔️|
-|[Rubick](https://github.com/rubickCenter/rubick)|rubick|✔️|
-|[Tiny RDM](https://www.tinyrdm.com/)|tinyrdm|✔️|
-|[VirtualDesktopSwitcher](https://github.com/choyy/VirtualDesktopSwitcher)|virtual-desktop-switcher|✔️|
+|软件名称|Scoop 名称|自动更新|介绍|
+|-|-|:-:|-|
+|🚂 [12306Bypass](https://www.bypass.cn)|12306bypass|✔️|火车票购票助手|
+|📥 [Bili23 Downloader](https://github.com/ScottSloan/Bili23-Downloader)|bili23-downloader|✔️|B站视频下载工具|
+|🐱 [Bongo Cat](https://github.com/ayangweb/BongoCat)|bongocat|✔️|桌面宠物猫|
+|🔒 [CipherTalk](https://github.com/ILoveBingLu/CipherTalk)|ciphertalk|✔️|加密聊天应用|
+|🗂️ [Coodesker](https://www.coodesker.com/)|coodesker|✔️|桌面整理工具|
+|🧹 [FluentCleaner](https://github.com/builtbybel/FluentCleaner)|fluentcleaner|✔️|Fluent风格清理工具|
+|🎵 [Go Musicfox](https://github.com/go-musicfox/go-musicfox)|go-musicfox|✔️|网易云音乐终端播放器|
+|🖱️ [IOGraph](https://www.iographica.com)|iograph|✔️|鼠标轨迹追踪|
+|⌨️ [KeyStats](https://github.com/debugtheworldbot/keyStats)|keystats|✔️|键盘按键统计|
+|📊 [LiteMonitor](https://github.com/Diorser/LiteMonitor)|litemonitor|✔️|轻量级监控工具|
+|📥 [Motrix Next](https://github.com/AnInsomniacy/motrix-next)|motrix-next|✔️|全功能下载管理器|
+|🖱️ [MouseInc](https://docs.shuax.com/MouseInc)|mouseinc|❌|鼠标增强工具|
+|🦆 [OptimizerDuck](https://github.com/itsfatduck/optimizerDuck)|optimizerduck|✔️|系统优化工具|
+|🖼️ [PicList](https://piclist.cn)|piclist|✔️|图床上传工具|
+|📸 [Pixpin](https://pixpin.cn/)|pixpin|✔️|截图录屏工具|
+|🌐 [Pot](https://pot-app.com/)|pot|✔️|翻译软件|
+|🎥 [Recordly](https://github.com/webadderallorg/Recordly)|recordly|✔️|录屏工具|
+|🗨️ [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)|revokemsgpatcher|✔️|防消息撤回补丁|
+|🧰 [Rubick](https://github.com/rubickCenter/rubick)|rubick|✔️|开源工具箱|
+|🗄️ [Tiny RDM](https://www.tinyrdm.com/)|tinyrdm|✔️|Redis桌面管理器|
+|🖥️ [VirtualDesktopSwitcher](https://github.com/choyy/VirtualDesktopSwitcher)|virtual-desktop-switcher|✔️|虚拟桌面切换器|
