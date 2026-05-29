@@ -1,5 +1,5 @@
 {
-    "version": "4.7.2",
+    "version": "4.8.5",
     "description": "A powerful text selection translation and OCR software",
     "homepage": "https://pot-app.com",
     "license": "GPL-3.0",
@@ -12,14 +12,14 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/go-musicfox/go-musicfox/releases/download/v4.7.2/go-musicfox_4.7.2_windows_amd64.zip",
-            "hash": "725e08521a3b362dbc5928ca629fcd323c8b380a10afac21b5631d75572ee166",
-            "extract_dir": "go-musicfox_4.7.2_windows_amd64"
+            "url": "https://github.com/go-musicfox/go-musicfox/releases/download/v4.8.5/go-musicfox_4.8.5_windows_amd64.zip",
+            "hash": "66380e2e1741d7c47123ca2600b16521ee8bf0e5b67184daa6ddc926d5c40209",
+            "extract_dir": "go-musicfox_4.8.5_windows_amd64"
         },
         "arm64": {
-            "url": "https://github.com/go-musicfox/go-musicfox/releases/download/v4.7.2/go-musicfox_4.7.2_windows_arm64.zip",
-            "hash": "1740769bda8600f192cffeee4d8a7f9561fa48c4e9ce32c88a4a2e7de756c921",
-            "extract_dir": "go-musicfox_4.7.2_windows_arm64"
+            "url": "https://github.com/go-musicfox/go-musicfox/releases/download/v4.8.5/go-musicfox_4.8.5_windows_arm64.zip",
+            "hash": "d627f9617ac2eac3f0d3644150f68444757f36736a7e4f3f452349429408ce60",
+            "extract_dir": "go-musicfox_4.8.5_windows_arm64"
         }
     },
     "checkver": {
