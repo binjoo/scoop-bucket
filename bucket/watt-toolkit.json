@@ -1,0 +1,22 @@
+{
+    "version": "3.1.0",
+    "description": "「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。",
+    "homepage": "https://github.com/BeyondDimension/SteamTools",
+    "license": "GPL-3.0",
+    "shortcuts": [
+        [
+            "Steam++.exe",
+            "Steam++",
+            "Watt Toolkit"
+        ]
+    ],
+    "url": "https://github.com/BeyondDimension/SteamTools/releases/download/3.1.0/Steam++_v3.1.0_win_x64.7z",
+    "hash": "d88d5eed63015b2aec124debf0140baf1663b7680dc65e8fa2a0928d9747b780",
+    "checkver": {
+        "url": "https://api.github.com/repos/BeyondDimension/SteamTools/releases/latest",
+        "jsonpath": "$.tag_name"
+    },
+    "autoupdate": {
+        "url": "https://github.com/BeyondDimension/SteamTools/releases/download/$version/Steam++_v$version_win_x64.7z"
+    }
+}
