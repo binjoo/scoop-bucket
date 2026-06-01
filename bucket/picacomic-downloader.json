@@ -1,0 +1,22 @@
+{
+    "version": "0.6.1",
+    "description": "PicaComic Downloader",
+    "homepage": "https://github.com/lanyeeee/picacomic-downloader",
+    "license": "MIT",
+    "shortcuts": [
+        [
+            "picacomic-downloader.exe",
+            "PicaComic Downloader"
+        ]
+    ],
+    "url": "https://github.com/lanyeeee/picacomic-downloader/releases/download/v0.6.1/picacomic-downloader_0.6.1_windows_x64_portable.zip",
+    "hash": "3b1bc10ee1d346553aec9353f617d6cab076bf61fe87e31a190860c897d2538a",
+    "checkver": {
+        "url": "https://api.github.com/repos/lanyeeee/picacomic-downloader/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/lanyeeee/picacomic-downloader/releases/download/v$version/picacomic-downloader_$version_windows_x64_portable.zip"
+    }
+}
