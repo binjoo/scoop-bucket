@@ -1,5 +1,5 @@
 {
-    "version": "0.6.1",
+    "version": "0.8.0",
     "description": "PicaComic Downloader",
     "homepage": "https://github.com/lanyeeee/picacomic-downloader",
     "license": "MIT",
@@ -9,8 +9,8 @@
             "PicaComic Downloader"
         ]
     ],
-    "url": "https://github.com/lanyeeee/picacomic-downloader/releases/download/v0.6.1/picacomic-downloader_0.6.1_windows_x64_portable.zip",
-    "hash": "3b1bc10ee1d346553aec9353f617d6cab076bf61fe87e31a190860c897d2538a",
+    "url": "https://github.com/lanyeeee/picacomic-downloader/releases/download/v0.8.0/picacomic-downloader_0.8.0_windows_x64_portable.zip",
+    "hash": "88ed5492209b2ea6a65006568c453bf287eb6010231fa5349dec251678a852f9",
     "checkver": {
         "url": "https://api.github.com/repos/lanyeeee/picacomic-downloader/releases/latest",
         "jsonpath": "$.tag_name",
