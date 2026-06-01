@@ -1,0 +1,22 @@
+{
+    "version": "0.16.1",
+    "description": "JmComic Downloader",
+    "homepage": "https://github.com/lanyeeee/jmcomic-downloader",
+    "license": "MIT",
+    "shortcuts": [
+        [
+            "jmcomic-downloader.exe",
+            "JmComic Downloader"
+        ]
+    ],
+    "url": "https://github.com/lanyeeee/jmcomic-downloader/releases/download/v0.16.1/jmcomic-downloader_0.16.1_windows_x64_portable.zip",
+    "hash": "46da1da781666c11273c78ec751fb030e0a86a535868a6d9fb35a8b26c42023b",
+    "checkver": {
+        "url": "https://api.github.com/repos/lanyeeee/jmcomic-downloader/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/lanyeeee/jmcomic-downloader/releases/download/v$version/jmcomic-downloader_$version_windows_x64_portable.zip"
+    }
+}
