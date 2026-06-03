@@ -2,6 +2,7 @@
     "version": "1.3.3",
     "description": "Create polished screen recordings without editing.",
     "homepage": "https://recordly.dev",
+    "license": "AGPLv3",
     "shortcuts": [
         [
             "Recordly.exe",
