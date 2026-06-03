@@ -1,0 +1,28 @@
+{
+    "version": "2.2.1",
+    "description": "A local TXT novel reader that brings your content to life with color, offering you an unparalleled reading experience!",
+    "homepage": "https://github.com/ssnangua/ColorTxt",
+    "license": "MPL-2.0",
+    "shortcuts": [
+        [
+            "彩读.exe",
+            "彩读 ColorTxt"
+        ]
+    ],
+    "url": "https://github.com/ssnangua/ColorTxt/releases/download/v2.2.1/colortxt-setup-2.2.1.exe#/dl.7z",
+    "hash": "d1f2741e94782c92f311dc99cd05c35eff3cb0a4ff5f617efc5442ad668f81ae",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Recurse -Force -ErrorAction SilentlyContinue"
+        ]
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/ssnangua/ColorTxt/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ssnangua/ColorTxt/releases/download/v$version/colortxt-setup-$version.exe#/dl.7z"
+    }
+}
