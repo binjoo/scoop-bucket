@@ -17,16 +17,8 @@
     "uninstaller": {
         "script": [
             "$targetDir = Join-Path $env:APPDATA 'com.qingj01.pebble'",
-            "$displayPath = $targetDir.Replace($env:USERPROFILE, '~')",
             "if (Test-Path $targetDir -PathType Container) {",
-            "    Write-Host \"Removing data $displayPath ...\" -NoNewline",
-            "    try {",
-            "        Remove-Item -Path $targetDir -Recurse -Force -ErrorAction SilentlyContinue",
-            "        Write-Host \"done.\" -ForegroundColor Green",
-            "    } catch {",
-            "        Write-Host \"failed.\" -ForegroundColor Red",
-            "        Write-Host \"Error removing $displayPath: $($_.Exception.Message)\" -ForegroundColor Red",
-            "    }",
+            "    Remove-Item -Path $targetDir -Recurse -Force -ErrorAction SilentlyContinue",
             "}"
         ]
     },
