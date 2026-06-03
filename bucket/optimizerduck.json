@@ -3,7 +3,7 @@
     "description": "A lightweight menu bar app that tracks your keyboard strokes, mouse clicks, movement distance, and scroll activity.",
     "homepage": "https://github.com/itsfatduck/optimizerDuck",
     "license": "MIT",
-    "extract_to": "optimizerDuck.exe",
+    "bin": "optimizerDuck.exe",
     "shortcuts": [
         [
             "optimizerDuck.exe",
