@@ -1,0 +1,22 @@
+{
+    "version": "2.5.20",
+    "description": "A blazing fast ultra-light photo viewer replacement for Windows. Works similar to Picasa Photo Viewer. ",
+    "homepage": "https://github.com/riyasy/FlyPhotos",
+    "license": "GPLv3",
+    "shortcuts": [
+        [
+            "FlyPhotos.exe",
+            "FlyPhotos"
+        ]
+    ],
+    "url": "https://github.com/riyasy/FlyPhotos/releases/download/v2.6.0/FlyPhotosInstaller_2.6.0_x64.msi",
+    "hash": "7e28cbfee3ffe046f3d61ed89d32a8833a67586d7d71080c18754ff63dacdb5c",
+    "checkver": {
+        "url": "https://api.github.com/repos/riyasy/FlyPhotos/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/riyasy/FlyPhotos/releases/download/v$version/picacomic-downloader_$version_windows_x64_portable.zip"
+    }
+}
