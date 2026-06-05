@@ -9,14 +9,31 @@
             "FlyPhotos"
         ]
     ],
-    "url": "https://github.com/riyasy/FlyPhotos/releases/download/v2.6.0/FlyPhotosInstaller_2.6.0_x64.msi",
-    "hash": "7e28cbfee3ffe046f3d61ed89d32a8833a67586d7d71080c18754ff63dacdb5c",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/riyasy/FlyPhotos/releases/download/v2.6.0/FlyPhotosInstaller_2.6.0_x64.msi",
+            "hash": "7e28cbfee3ffe046f3d61ed89d32a8833a67586d7d71080c18754ff63dacdb5c",
+            "extract_dir": "PFiles64\\RYFTools\\FlyPhotos"
+        },
+        "arm64": {
+            "url": "https://github.com/riyasy/FlyPhotos/releases/download/v2.6.0/FlyPhotosInstaller_2.6.0_ARM64.msi",
+            "hash": "a59d4c653cbaca1d6557f9371f31dd680e49e72be8d7926a4cba225eb79cc87a",
+            "extract_dir": "PFiles64\\RYFTools\\FlyPhotos"
+        }
+    },
     "checkver": {
         "url": "https://api.github.com/repos/riyasy/FlyPhotos/releases/latest",
         "jsonpath": "$.tag_name",
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/riyasy/FlyPhotos/releases/download/v$version/picacomic-downloader_$version_windows_x64_portable.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/riyasy/FlyPhotos/releases/download/v$version/FlyPhotosInstaller_$version_x64.msi"
+            },
+            "arm64": {
+                "url": "https://github.com/riyasy/FlyPhotos/releases/download/v$version/FlyPhotosInstaller_$version_ARM64.msi"
+            }
+        }
     }
 }
