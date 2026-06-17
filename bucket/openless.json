@@ -1,5 +1,5 @@
 {
-    "version": "1.3.8",
+    "version": "1.3.10",
     "description": "Hold a key, speak, release — AI-polished text appears at your cursor in any app.",
     "homepage": "https://github.com/Open-Less/openless",
     "license": "MIT",
@@ -9,8 +9,8 @@
             "OpenLess"
         ]
     ],
-    "url": "https://github.com/Open-Less/openless/releases/download/v1.3.8-tauri/OpenLess_1.3.8_x64-setup.exe#/dl.7z",
-    "hash": "94491d7665ba941469788d1fec71e97a2375675ba417bbff4574390537eda078",
+    "url": "https://github.com/Open-Less/openless/releases/download/v1.3.10-tauri/OpenLess_1.3.10_x64-setup.exe#/dl.7z",
+    "hash": "0ec1f06c43f48b763cfb93a4ee787f588e0d58cb984d01ad012fd5c8f595e800",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse -Force -ErrorAction SilentlyContinue",
