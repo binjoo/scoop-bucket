@@ -1,0 +1,38 @@
+{
+    "version": "2.12.1",
+    "description": "A music application built with Electron.",
+    "homepage": "https://github.com/lyswhut/lx-music-desktop",
+    "license": "Apache-2.0",
+    "shortcuts": [
+        [
+            "lx-music-desktop.exe",
+            "LX Music Desktop",
+            "落雪音乐播放器"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.1/lx-music-desktop-v2.12.1-win_x64-green.7z",
+            "hash": "acf879a25f6248d7b7f013095778e2826aedc47786119eae974190dc912b0c12"
+        },
+        "arm64": {
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.12.1/lx-music-desktop-v2.12.1-win_arm64-green.7z",
+            "hash": "876e8f5b00100ad63dcce6059d3ac2f0dbebfea61e30356b9e55b59398a9aa5e"
+        }
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/lyswhut/lx-music-desktop/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-win_x64-green.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v$version/lx-music-desktop-v$version-win_arm64-green.7z"
+            }
+        }
+    }
+}
