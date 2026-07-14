@@ -1,5 +1,5 @@
 {
-    "version": "2.24.2",
+    "version": "2.25.2",
     "description": "A lightweight menu bar app that tracks your keyboard strokes, mouse clicks, movement distance, and scroll activity.",
     "homepage": "https://github.com/itsfatduck/optimizerDuck",
     "license": "MIT",
@@ -10,8 +10,8 @@
             "OptimizerDuck"
         ]
     ],
-    "url": "https://github.com/itsfatduck/optimizerDuck/releases/download/v2.24.2/optimizerDuck-Windows-x64-2.24.2.exe",
-    "hash": "08bf83f9c24a2dbfd2be5987104a0bdfb43935169f48978f2c35414ef45427f6",
+    "url": "https://github.com/itsfatduck/optimizerDuck/releases/download/v2.25.2/optimizerDuck-Windows-x64-2.25.2.exe",
+    "hash": "0f465b328c81ed28d7d6b0de66553b8a9ce3e9f55dae8225eda3c2eb2593a72a",
     "checkver": {
         "url": "https://api.github.com/repos/itsfatduck/optimizerDuck/releases/latest",
         "jsonpath": "$.tag_name",
