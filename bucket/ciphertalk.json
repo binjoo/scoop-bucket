@@ -1,5 +1,5 @@
 {
-    "version": "2026.807.1",
+    "version": "2026.809.0",
     "description": "本地导出微信数据，协助您完成爱的备份。 ",
     "homepage": "https://github.com/ILoveBingLu/CipherTalk",
     "license": "CC BY-NC-SA 4.0",
@@ -9,8 +9,8 @@
             "CipherTalk"
         ]
     ],
-    "url": "https://github.com/ILoveBingLu/CipherTalk/releases/download/v2026.807.1/CipherTalk-2026.807.1-Setup.exe#/dl.7z",
-    "hash": "9dc3671836d6968f601e16e84b8085e64fc61d1d1ca3c0b8cdb3e947cc3bf0b4",
+    "url": "https://github.com/ILoveBingLu/CipherTalk/releases/download/v2026.809.0/CipherTalk-2026.809.0-Setup.exe#/dl.7z",
+    "hash": "b910feccfa5a6cf088875e0145dd6d3a3624a73c6686ff31927cb44445b6b7ed",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
