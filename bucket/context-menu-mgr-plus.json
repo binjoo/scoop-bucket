@@ -1,5 +1,5 @@
 {
-    "version": "1.7.2",
+    "version": "1.7.4",
     "description": "A Windows context menu management tool with new menu monitoring",
     "homepage": "https://github.com/PLFJY/ContextMenuMgr",
     "license": "GPL-3.0",
@@ -11,16 +11,16 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.2/ContextMenuMgrPlus-1.7.2-x64-self-contained-portable.zip",
-            "hash": "847991a6ff5fc9ffd6c4493c44d696db55ca507b7b956633a55a64e524869242"
+            "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.4/ContextMenuMgrPlus-1.7.4-x64-self-contained-portable.zip",
+            "hash": "97066e259e45a2583f62471dcc97aa0197cd884e974896481b1f14f730de242b"
         },
         "32bit": {
-            "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.2/ContextMenuMgrPlus-1.7.2-x86-self-contained-portable.zip",
-            "hash": "360e27da74361a10ff38dffe3260a0951b567a3de0fd7a231a563de50e4ad096"
+            "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.4/ContextMenuMgrPlus-1.7.4-x86-self-contained-portable.zip",
+            "hash": "4010dfc9fb74128e3ec92021f31488c5772d9b53543901375edd667f7da9fc50"
         },
         "arm64": {
-            "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.2/ContextMenuMgrPlus-1.7.2-arm64-self-contained-portable.zip",
-            "hash": "a998cb4a76ddd6a759e3e07665d727df1afb7c905aeb4a7fd0437001fd994e63"
+            "url": "https://github.com/PLFJY/ContextMenuMgr/releases/download/v1.7.4/ContextMenuMgrPlus-1.7.4-arm64-self-contained-portable.zip",
+            "hash": "5f119fe8c278529055589c01dec7631d4b8c1a79522b390417bd1784f11175dc"
         }
     },
     "checkver": {
