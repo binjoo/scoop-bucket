@@ -1,5 +1,5 @@
 {
-    "version": "2.7.0",
+    "version": "2.7.2",
     "description": "A blazing fast ultra-light photo viewer replacement for Windows. Works similar to Picasa Photo Viewer. ",
     "homepage": "https://github.com/riyasy/FlyPhotos",
     "license": "GPLv3",
@@ -11,13 +11,13 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/riyasy/FlyPhotos/releases/download/v2.7.0/FlyPhotosInstaller_2.7.0_x64.msi",
-            "hash": "e6ebbbb76e8dd99073bbf2e12ca5ce3e64e8563d909bd1eb3f6e192ddccd8ac5",
+            "url": "https://github.com/riyasy/FlyPhotos/releases/download/v2.7.2/FlyPhotosInstaller_2.7.2_x64.msi",
+            "hash": "878fcd5114e976b04a00d40b1d64177ac1ff947a3b2cfcda5865765beaece63c",
             "extract_dir": "PFiles64\\RYFTools\\FlyPhotos"
         },
         "arm64": {
-            "url": "https://github.com/riyasy/FlyPhotos/releases/download/v2.7.0/FlyPhotosInstaller_2.7.0_ARM64.msi",
-            "hash": "e3932db3035414ecf60c7da5f947b29ffb08f26fb9c9928e094fad7fc14daa9f",
+            "url": "https://github.com/riyasy/FlyPhotos/releases/download/v2.7.2/FlyPhotosInstaller_2.7.2_ARM64.msi",
+            "hash": "02e50ab2161781661b38b0b52705d5cfbd10267fd30edbb37120d150e2a55feb",
             "extract_dir": "PFiles64\\RYFTools\\FlyPhotos"
         }
     },
