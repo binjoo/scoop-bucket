@@ -1,0 +1,15 @@
+{
+    "version": "1.2.4",
+    "description": "BiliDown is a clean and easy-to-use tool for downloading Bilibili videos.",
+    "homepage": "https://zhouql.vip/bilibili/",
+    "license": "MIT",
+    "shortcuts": [
+        [
+            "bilidown.exe",
+            "BiliDown"
+        ]
+    ],
+    "persist": "bilidown.json",
+    "url": "https://github.com/binjoo/scoop-bucket/releases/download/Archive_Software/BiliDown_v1.2.4.7z",
+    "hash": "63026b83e9301a852e1f0f52f4918959b46e017ff5522d37322d66ba69e15d11"
+}
