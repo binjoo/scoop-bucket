@@ -9,6 +9,7 @@
             "XYplorer"
         ]
     ],
+    "persist": "Data",
     "url": "https://www.xyplorer.com/free-zer/28.20/xyplorer64_full_noinstall.zip",
     "hash": "6e48bd99993dc88a40f300ad93413e76ef93a73ffa1553e2bad5e149bb12416e",
     "checkver": {
