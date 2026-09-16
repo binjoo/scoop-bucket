@@ -8,12 +8,15 @@ scoop bucket add binjoo https://github.com/binjoo/scoop-bucket
 
 |软件名称|Scoop 名称|自动更新|介绍|
 |-|-|:-:|-|
-|🚂 [12306Bypass](https://www.bypass.cn)|12306bypass|✔️|一款完全免费的12306抢票软件|
+|~~🚂 [12306Bypass](https://www.bypass.cn)~~|~~12306bypass~~|~~✔️~~|~~一款完全免费的12306抢票软件~~|
 |📥 [Bili23 Downloader](https://github.com/ScottSloan/Bili23-Downloader)|bili23-downloader|✔️|B站视频下载工具|
+|📥 [BiliDown](https://zhouql.vip/bilibili/)|bilidown|❌|简洁易用的 B 站视频下载工具|
 |🐱 [Bongo Cat](https://github.com/ayangweb/BongoCat)|bongocat|✔️|跨平台互动桌宠|
 |🔒 [CipherTalk](https://github.com/ILoveBingLu/CipherTalk)|ciphertalk|✔️|本地导出微信数据|
 |📖 [ColorTxt](https://github.com/ssnangua/ColorTxt)|colortxt|✔️|本地 TXT 小说阅读器|
 |🗂️ [Coodesker](https://www.coodesker.com/)|coodesker|✔️|自动分类整理桌面文件|
+|🧩 [Context Menu Manager Plus](https://github.com/PLFJY/ContextMenuMgr)|context-menu-mgr-plus|✔️|Windows 右键菜单管理工具|
+|🗄️ [DBX](https://github.com/t8y2/dbx)|dbx|✔️|轻量跨平台数据库客户端|
 |🧹 [FluentCleaner](https://github.com/builtbybel/FluentCleaner)|fluentcleaner|✔️|WinUI 桌面清理工具|
 |🖼️ [FlyPhotos](https://github.com/riyasy/FlyPhotos)|flyphotos|✔️|快速轻量的图片查看器|
 |🎵 [Go Musicfox](https://github.com/go-musicfox/go-musicfox)|go-musicfox|✔️|网易云音乐终端播放器|
@@ -21,9 +24,13 @@ scoop bucket add binjoo https://github.com/binjoo/scoop-bucket
 |📚 [JmComic Downloader](https://github.com/lanyeee/jmcomic-downloader)|jmcomic-downloader|✔️|JM漫画下载器|
 |⌨️ [KeyStats](https://github.com/debugtheworldbot/keyStats)|keystats|✔️|键盘鼠标活动追踪|
 |📊 [LiteMonitor](https://github.com/Diorser/LiteMonitor)|litemonitor|✔️|轻量级硬件监控|
+|🎵 [LX Music Desktop](https://github.com/lyswhut/lx-music-desktop)|lx-music-desktop|✔️|基于 Electron 的音乐播放器|
+|🥭 [MangoDisk](https://github.com/harry0703/MangoDisk)|mangodisk|✔️|安全优先的磁盘清理与空间分析|
 |📥 [Motrix Next](https://github.com/AnInsomniacy/motrix-next)|motrix-next|✔️|全功能下载管理器|
 |🖱️ [MouseInc](https://docs.shuax.com/MouseInc)|mouseinc|❌|鼠标手势增强工具|
-🦆 [OptimizerDuck](https://github.com/itsfatduck/optimizerDuck)|optimizerduck|✔️|系统优化工具|
+|🦆 [OptimizerDuck](https://github.com/itsfatduck/optimizerDuck)|optimizerduck|✔️|系统优化工具|
+|⌨️ [OpenLess](https://github.com/Open-Less/openless)|openless|✔️|按键说话，AI 润色后输入到光标处|
+|🖱️ [OpenLogi](https://openlogi.org)|openlogi|✔️|罗技 Options+ 本地替代，支持按键/DPI 重映射|
 |📧 [Pebble](https://github.com/QingJ01/Pebble)|pebble|✔️|小巧精美的邮件客户端|
 |📚 [PicaComic Downloader](https://github.com/lanyeee/picacomic-downloader)|picacomic-downloader|✔️|BK漫画下载器|
 |🖼️ [PicList](https://piclist.cn)|piclist|✔️|图片上传管理工具|
@@ -35,3 +42,4 @@ scoop bucket add binjoo https://github.com/binjoo/scoop-bucket
 |🗄️ [Tiny RDM](https://www.tinyrdm.com/)|tinyrdm|✔️|轻量级 Redis 客户端|
 |🖥️ [VirtualDesktopSwitcher](https://github.com/choyy/VirtualDesktopSwitcher)|virtual-desktop-switcher|✔️|虚拟桌面切换器|
 |🎮 [Watt Toolkit](https://github.com/BeyondDimension/SteamTools)|watt-toolkit|✔️|Steam 多功能工具箱|
+|📂 [XYplorer](https://www.xyplorer.com)|xyplorer|✔️|快速轻量的便携文件管理器|
