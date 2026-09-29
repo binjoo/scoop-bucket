@@ -1,5 +1,5 @@
 {
-    "version": "28.40.0100",
+    "version": "28.40.0200",
     "description": "XYplorer is a fast, light, portable file manager.",
     "homepage": "https://www.xyplorer.com",
     "license": "EULA",
@@ -11,7 +11,7 @@
     ],
     "persist": "Data",
     "url": "https://www.xyplorer.com/free-zer/28.40/xyplorer64_full_noinstall.zip",
-    "hash": "6f6e25e5315595d4119e06f78a55d360f9456242aa3691afc6b7af1364c90b65",
+    "hash": "ca56440e89d64fadb751406d696e36d365c2a895f2416f40077f5864aa356b8a",
     "checkver": {
         "url": "https://www.xyplorer.com/freezer.php",
         "regex": "<ul class=\"waznu\">\\s*<li><a href=\"\\?ver=[^\"]+\"><b>((\\d+\\.\\d+)\\.\\d+)<\\/b>"
