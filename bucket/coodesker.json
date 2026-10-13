@@ -1,12 +1,12 @@
 {
-    "version": "2.2.2.3",
+    "version": "2.2.2.4",
     "description": "自动分类整理桌面上的快捷方式、目录、图片等文件",
     "homepage": "https://www.coodesker.com/",
     "license": "EULA",
     "architecture": {
         "64bit": {
-            "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x64_2.2.2.3.exe#/dl.7z",
-            "hash": "e53e7c9ccd98a4f55a6da7de7668d832380438522095fe904519d7b35f64d83c",
+            "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x64_2.2.2.4.exe#/dl.7z",
+            "hash": "b37c1e80656f31b52d6dd235c485f4c055ec411f1d6b24d8014eee91aae05459",
             "bin": "coodesker-x64.exe",
             "shortcuts": [
                 [
@@ -16,8 +16,8 @@
             ]
         },
         "32bit": {
-            "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x86_2.2.2.3.exe#/dl.7z",
-            "hash": "4f5f77dc451efaff84ccc436d9b5b2b9ed6a2d639296b884216c03fe2ea6e60d",
+            "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-x86_2.2.2.4.exe#/dl.7z",
+            "hash": "da3da20903ec1f1adbf421434ff2434d6266f55399bc50a88cf7f1bb570e55c6",
             "bin": "coodesker.exe",
             "shortcuts": [
                 [
@@ -27,8 +27,8 @@
             ]
         },
         "arm64": {
-            "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-arm64_2.2.2.3.exe#/dl.7z",
-            "hash": "d8b75b6054e629e2f94570ce01e66200df8c3ffcb9a9c548014361de0319bfdc",
+            "url": "https://down.coodesker.com/coodesker-desktop/Coodesker-arm64_2.2.2.4.exe#/dl.7z",
+            "hash": "cd2fb8ae10a578536abc9f87b2072f0269943196b1c6463be5999e1cd8d45162",
             "bin": "coodesker-x64.exe",
             "shortcuts": [
                 [
