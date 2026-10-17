@@ -9,6 +9,7 @@ scoop bucket add binjoo https://github.com/binjoo/scoop-bucket
 |软件名称|Scoop 名称|自动更新|介绍|
 |-|-|:-:|-|
 |~~🚂 [12306Bypass](https://www.bypass.cn)~~|~~12306bypass~~|~~✔️~~|~~一款完全免费的12306抢票软件~~|
+|🚀 [Bettbox](https://github.com/appshubcc/Bettbox)|bettbox|✔️|Mihomo (Clash Meta) 图形客户端|
 |📥 [Bili23 Downloader](https://github.com/ScottSloan/Bili23-Downloader)|bili23-downloader|✔️|B站视频下载工具|
 |📥 [BiliDown](https://zhouql.vip/bilibili/)|bilidown|❌|简洁易用的 B 站视频下载工具|
 |🐱 [Bongo Cat](https://github.com/ayangweb/BongoCat)|bongocat|✔️|跨平台互动桌宠|
@@ -19,6 +20,7 @@ scoop bucket add binjoo https://github.com/binjoo/scoop-bucket
 |🗄️ [DBX](https://github.com/t8y2/dbx)|dbx|✔️|轻量跨平台数据库客户端|
 |🧹 [FluentCleaner](https://github.com/builtbybel/FluentCleaner)|fluentcleaner|✔️|WinUI 桌面清理工具|
 |🖼️ [FlyPhotos](https://github.com/riyasy/FlyPhotos)|flyphotos|✔️|快速轻量的图片查看器|
+|🤖 [FreeLLMAPI](https://github.com/tashfeenahmed/freellmapi)|freellmapi|✔️|LLM API 智能路由与故障切换|
 |🎵 [Go Musicfox](https://github.com/go-musicfox/go-musicfox)|go-musicfox|✔️|网易云音乐终端播放器|
 |🖱️ [IOGraph](https://www.iographica.com)|iograph|✔️|鼠标轨迹追踪艺术|
 |📚 [JmComic Downloader](https://github.com/lanyeee/jmcomic-downloader)|jmcomic-downloader|✔️|JM漫画下载器|
@@ -39,6 +41,7 @@ scoop bucket add binjoo https://github.com/binjoo/scoop-bucket
 |🎥 [Recordly](https://github.com/webadderallorg/Recordly)|recordly|✔️|无需编辑的录屏工具|
 |🗨️ [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)|revokemsgpatcher|✔️|微信/QQ防撤回补丁|
 |🧰 [Rubick](https://github.com/rubickCenter/rubick)|rubick|✔️|Electron 开源工具箱|
+|🧠 [Skills Manager](https://github.com/xingkongliang/skills-manager)|skills-manager|✔️|跨工具统一管理 AI Agent 技能|
 |🗄️ [Tiny RDM](https://www.tinyrdm.com/)|tinyrdm|✔️|轻量级 Redis 客户端|
 |🖥️ [VirtualDesktopSwitcher](https://github.com/choyy/VirtualDesktopSwitcher)|virtual-desktop-switcher|✔️|虚拟桌面切换器|
 |🎮 [Watt Toolkit](https://github.com/BeyondDimension/SteamTools)|watt-toolkit|✔️|Steam 多功能工具箱|
