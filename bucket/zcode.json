@@ -1,16 +1,16 @@
 {
-    "version": "3.16.3",
+    "version": "3.17.1",
     "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
     "homepage": "https://github.com/zai-org/ZCode",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zai-org/ZCode/releases/download/v3.16.3/ZCode-3.16.3-win-x64.exe#/dl.7z",
-            "hash": "b4fccc1ead9922d9066e083d53d3bf92bdeac3124767d4352fd0583e5399382f"
+            "url": "https://github.com/zai-org/ZCode/releases/download/v3.17.1/ZCode-3.17.1-win-x64.exe#/dl.7z",
+            "hash": "d9c21c5472f7357daf429dbfbb6b4ec8f77c83ecc13aa9fde7583b0c328e6cef"
         },
         "arm64": {
-            "url": "https://github.com/zai-org/ZCode/releases/download/v3.16.3/ZCode-3.16.3-win-arm64.exe#/dl.7z",
-            "hash": "2e7f4ec1c7349b66e6447ef548289d677cdbafe60756c50654367c53c5ed44d6"
+            "url": "https://github.com/zai-org/ZCode/releases/download/v3.17.1/ZCode-3.17.1-win-arm64.exe#/dl.7z",
+            "hash": "670bf5ce97e15c159f54ab37a0810a9aa947033f06c1104531c1631c824ed7ce"
         }
     },
     "installer": {
