@@ -1,18 +1,15 @@
 {
     "version": "3.16.3",
-    "description": "A full-featured Agentic Development Environment (ADE) built for Long Horizon Tasks, powered by Z.ai.",
-    "homepage": "https://zcode.z.ai/en",
-    "license": {
-        "identifier": "Proprietary",
-        "url": "https://zcode.z.ai/en/terms"
-    },
+    "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+    "homepage": "https://github.com/zai-org/ZCode",
+    "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://cdn-zcode.z.ai/zcode/electron/releases/3.16.3/windows-x64/ZCode-3.16.3-win-x64.exe#/dl.7z",
+            "url": "https://github.com/zai-org/ZCode/releases/download/v3.16.3/ZCode-3.16.3-win-x64.exe#/dl.7z",
             "hash": "b4fccc1ead9922d9066e083d53d3bf92bdeac3124767d4352fd0583e5399382f"
         },
         "arm64": {
-            "url": "https://cdn-zcode.z.ai/zcode/electron/releases/3.16.3/windows-arm64/ZCode-3.16.3-win-arm64.exe#/dl.7z",
+            "url": "https://github.com/zai-org/ZCode/releases/download/v3.16.3/ZCode-3.16.3-win-arm64.exe#/dl.7z",
             "hash": "2e7f4ec1c7349b66e6447ef548289d677cdbafe60756c50654367c53c5ed44d6"
         }
     },
@@ -36,16 +33,14 @@
             "ZCode"
         ]
     ],
-    "checkver": {
-        "regex": "ZCode-(?<version>\\d+(?:\\.\\d+)+)-win-x64\\.exe"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn-zcode.z.ai/zcode/electron/releases/$version/windows-x64/ZCode-$version-win-x64.exe#/dl.7z"
+                "url": "https://github.com/zai-org/ZCode/releases/download/v$version/ZCode-$version-win-x64.exe#/dl.7z"
             },
             "arm64": {
-                "url": "https://cdn-zcode.z.ai/zcode/electron/releases/$version/windows-arm64/ZCode-$version-win-arm64.exe#/dl.7z"
+                "url": "https://github.com/zai-org/ZCode/releases/download/v$version/ZCode-$version-win-arm64.exe#/dl.7z"
             }
         }
     }
