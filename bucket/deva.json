@@ -1,0 +1,18 @@
+{
+    "version": "0.1.15",
+    "description": "对话式 AI 助手 · All in Chat - 把 Agent 能力装进对话里，无需复杂配置，像聊天一样使用 Agent。",
+    "homepage": "https://github.com/sqfcyily/deva",
+    "license": "MIT",
+    "shortcuts": [
+        [
+            "Deva.exe",
+            "Deva"
+        ]
+    ],
+    "url": "https://github.com/sqfcyily/deva/releases/download/v0.1.15/Deva-0.1.15-portable.zip",
+    "hash": "2bcd414d60981a015743379f70883bff182414b35c33e4e2259799c1d3a4aab7",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/sqfcyily/deva/releases/download/v$version/Deva-$version-portable.zip"
+    }
+}
