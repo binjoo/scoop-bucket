@@ -1,5 +1,5 @@
 {
-    "version": "0.16.32",
+    "version": "0.16.34",
     "description": "Smart routing, automatic failover, encrypted keys.",
     "homepage": "https://github.com/tashfeenahmed/freellmapi",
     "license": "MIT",
@@ -9,8 +9,8 @@
             "FreeLLMAPI"
         ]
     ],
-    "url": "https://github.com/tashfeenahmed/freellmapi/releases/download/v0.16.32/FreeLLMAPI-0.16.32-win.zip",
-    "hash": "cb938307633077a1f3b529e950d605af3fb148d2a115ac565a06ee0362dd0112",
+    "url": "https://github.com/tashfeenahmed/freellmapi/releases/download/v0.16.34/FreeLLMAPI-0.16.34-win.zip",
+    "hash": "e2a7c975c3ee92a28e05b50780cdbf2934f36a0f062ad6c03cc248872837544e",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/tashfeenahmed/freellmapi/releases/download/v$version/FreeLLMAPI-$version-win.zip"
