@@ -1,5 +1,5 @@
 {
-    "version": "2.2.0",
+    "version": "2.2.2",
     "description": "Cross-platform short-drama client built with Tauri 2, React and Rust.",
     "homepage": "https://github.com/zxsos/HGhubX",
     "license": "PolyForm Noncommercial License 1.0.0",
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zxsos/HGhubX/releases/download/v2.2.0/HGhubX_2.2.0_x64_portable.zip",
-            "hash": "e4100f41e7ead4cc4200ceb1c0bab970acbbeab5a73990bb3de503760d24cffd"
+            "url": "https://github.com/zxsos/HGhubX/releases/download/v2.2.2/HGhubX_2.2.2_x64_portable.zip",
+            "hash": "7bd654c6e59c8e04c30ec88ecaf3257838ef554ef7ea349e7e2c7ca6321edd54"
         }
     },
     "checkver": "github",
