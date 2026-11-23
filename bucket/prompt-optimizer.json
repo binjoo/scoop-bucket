@@ -1,5 +1,5 @@
 {
-    "version": "2.16.0",
+    "version": "2.16.1",
     "description": "JmComic Downloader",
     "homepage": "https://github.com/linshenkx/prompt-optimizer",
     "license": "MIT",
@@ -9,8 +9,8 @@
             "PromptOptimizer"
         ]
     ],
-    "url": "https://github.com/linshenkx/prompt-optimizer/releases/download/v2.16.0/PromptOptimizer-2.16.0-win-x64.zip",
-    "hash": "aef43cd71663fda90bdddb55a8b480067720221026d43be0343e44ec62b82c13",
+    "url": "https://github.com/linshenkx/prompt-optimizer/releases/download/v2.16.1/PromptOptimizer-2.16.1-win-x64.zip",
+    "hash": "00e3438dfeb9281019d4e9d392d82de61de3eb827b16c834e448448abe6e4b4d",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/linshenkx/prompt-optimizer/releases/download/v$version/PromptOptimizer-$version-win-x64.zip"
